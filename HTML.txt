@@ -1,0 +1,50 @@
+FRONT END - HTML, CSS, JAVASCRIPT	
+DINAMIC WEB PAGE
+
+HTML-> kostur stranice, baza
+CSS -> HTML je nuzan
+    -> stil stranice (definira stil HTML-a)
+JS  -> logika stranice, programiranje ---> Ono najbolje!! :)
+
+HTML
+<h>-heading (podnaslov,naslov) </h>
+<b>-bold </b> || <strong></strong>
+<em> -italic </em> "EMPHASIS"
+<p>-paragraph (redak/kitica) </p>
+<br> \n
+<hr> horizontalna linija
+
+<ul> </ul> oznacava UNORDERED listu
+<ol> </ol> oznacava ORDERED listu
+<li> </li> elementi liste
+
+<span> oznacava element nad kojim ce CSS radit
+<div> grupira elemente u kontejnere (sjeti se jave) i onda dalje css preuzima
+	-block level
+<form> kontejner za ispunjavanje
+	-action = "url" method = "get"
+	-<select> meni (<option>)
+	-<label for="aha">AAA</label>
+	-<input id="aha" type="text" name = daje gore url> ILI <label>Email<input....
+	<input type="radio" isto ime, ali razliciti value za vise razlicitih odabira
+<nav> kontejner za trazenje
+
+??Hyperlink?? <a href="url" title="NESTO" target="_blank"> blabla<a/>
+		u a stavljam sve vezano za link
+	-> povezuje html fileove koji se nalaze u istom repozitoriju	
+??Subscript??
+??Superscript??
+
+Inline element ostavlja tekst u jednom redu (em,b,span..)
+Block-level element ide u novi redak	(p,div,form.)
+
+<!--komentar-->
+
+<!--
+<h> TITLE </h>
+<p> Mama ti sestra <p/>
+
+<a href= "url" title="MAMA" target="_blank"> imeLinka <a/>
+
+<input type="text" disabled> -BOOLEAN
+-->

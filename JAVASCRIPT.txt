@@ -1,0 +1,60 @@
+5 primitivnih tipova
+-brojevi, stringovi, null, undefined, boolean
+
+STRINGOVI
+\ ponistava vrijednost znaka  prije (escape u sql) -> 
+\\ oznacava \
+var je varijabla bilo kojeg tipa i moze se mijenjati
+
+"\"" -> "
+
+METODE
+alert("nesto") -> pop-up screen koji sadrzi nesto -> pokazuje korisniku
+console.log("nesto") -> ispisuje nama u konzoli nesto
+prompt("nesto") -> pop-up korisniku da unese nesto i onda se to nama sprema u varijablu
+u konzoli ili se samo ispise u konzoli
+
+u html fileu spajamo js file sa <script src="" ></script>
+
+== equal to
+=== equal value and type
+!== not equal value or type
+
+LISTE []
+
+push, pop
+unshift -> stavlja na prvo mjesto
+shift -> skida sa prvog mjesta i stavlja negdje
+slice -> reze listu (odakle, dokle-1)
+splice(odakle, koliko) -> izbacuje iz liste
+
+lista.forEach(funkcija koja za svaki element radi nesto(i predstavlja svaki pojedini element))
+
+lista.forEach(function(a,i){
+	console.log(i+":"+a);
+});
+
+FUNKCIJE 
+function ime (arg){
+	tu radim sa arg
+}
+
+OBJEKTI {}
+
+var osoba = new Object();
+osoba.ime=
+osoba.prezime=
+...
+
+var osoba = {
+	ime : ,
+	prezime: ,
+	...
+}
+
+u objekt mogu ubacit bilo sta -> var prop = "nesto" -> osoba[prop]="ajmo" 
+	-> sad ce na mjestu nesto (kljuc) stajati ajmo (value)
+
+mozemo imati listu objekata -> list[{},{},{}]
+
+objekt moze sadrzavati funkcije -> OBJEKT JE KLASA!!!!

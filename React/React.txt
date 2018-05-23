@@ -1,0 +1,9 @@
+klase proširuju react.component
+- implementacija funkcije render()- stvaranje
+
+funkcionalne komponente -> one koje sadrze jedino fju render()
+	moze ih se lakse napisati kao function square(props)
+					return();
+
+props -> varijable
+prosljedivanje fje drugoj klasi (bez zagrada na kraju)!

@@ -1,0 +1,3 @@
+Stranica je novi layout
+Layout treba importat u index.js i dodat route
+Link za taj layout treba dodat u App.js i linkat ga

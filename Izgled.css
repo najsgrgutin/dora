@@ -1,0 +1,15 @@
+html {
+  background-color: green;
+  font-size: 20px;
+}
+
+ul {
+  background: purple;
+  padding: 10px;
+  border: 1px solid yellow;
+}
+
+li {
+  background: blue;
+  margin-left: 20px;
+}
